@@ -1,0 +1,65 @@
+html,body {
+    /* height: 100%; */
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    grid-area: header;
+
+    display: flex;
+    background-color: rgb(0, 94, 184);
+    justify-content: center;
+    padding-right: 0px;
+    color: rgb(255, 255, 255);
+}
+
+#Visit {
+    font-size: 4rem;
+}
+
+#Scotland {
+    font-size: 9rem;
+}
+
+.menu {
+    grid-area: menu;
+
+    background-color: rgb(0, 94, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 200%;
+    padding-left: 35px;
+}
+
+body div div ul a {
+    background-color: rgb(0, 94, 184);
+    text-decoration-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+body div div ul :hover {
+    background-color: rgb(13, 71, 129);
+    text-decoration-color: rgb(148, 189, 255);
+    color: rgb(148, 189, 255);
+}
+
+.to {
+    grid-area: to;
+}
+
+.tre {
+    grid-area: tre;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    'menu header header header'
+    'to to to to'
+    'tre tre tre tre';
+}
