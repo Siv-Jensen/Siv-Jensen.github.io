@@ -1,5 +1,4 @@
 html,body {
-    /* height: 100%; */
     padding: 0;
     margin: 0;
 }
@@ -9,8 +8,7 @@ html,body {
 
     display: flex;
     background-color: rgb(0, 94, 184);
-    justify-content: center;
-    padding-right: 0px;
+    justify-content: right;
     color: rgb(255, 255, 255);
 }
 
@@ -28,10 +26,18 @@ html,body {
     background-color: rgb(0, 94, 184);
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     font-size: 200%;
-    padding-left: 35px;
+}
+
+.minigrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    'one two three'
+    'four five six';
+    margin-left: 130px;
 }
 
 body div div ul a {
@@ -52,6 +58,15 @@ body div div ul :hover {
 
 .tre {
     grid-area: tre;
+    background-color: rgb(100, 135, 165);
+}
+
+.fire {
+    grid-area: fire;
+}
+
+body div div img {
+    width: 80%;
 }
 
 .grid {
@@ -59,7 +74,7 @@ body div div ul :hover {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas:
-    'menu header header header'
-    'to to to to'
+    'header header menu menu'
+    'to to to fire'
     'tre tre tre tre';
 }
