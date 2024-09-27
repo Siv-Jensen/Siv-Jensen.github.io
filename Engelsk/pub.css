@@ -38,6 +38,7 @@ html,body {
     'one two three'
     'four five six';
     margin-left: 130px;
+    font-size: 2.5rem;
 }
 
 body div div ul a {
@@ -54,11 +55,19 @@ body div div ul :hover {
 
 .to {
     grid-area: to;
+    padding: 20px;
+    color: rgb(0, 94, 184);
 }
 
 .tre {
     grid-area: tre;
-    background-color: rgb(100, 135, 165);
+    background-color: rgb(0, 94, 184);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+body div div p a {
+    color: rgb(255, 255, 255);
 }
 
 .fire {
@@ -67,6 +76,7 @@ body div div ul :hover {
 
 body div div img {
     width: 80%;
+    margin-top: 80px;
 }
 
 .grid {
