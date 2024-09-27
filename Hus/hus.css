@@ -1,0 +1,84 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(143, 201, 9);
+}
+
+.tittel {
+    grid-area: tittel;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tekst {
+    grid-area: tekst;
+    padding: 20px;
+}
+
+body div div h2 {
+    font-size: 2.5rem;
+}
+
+.heisann {
+    font-size: 1.2rem;
+}
+
+.meny {
+    grid-area: meny;
+    font-size: 200%;
+    background-color: rgb(142, 175, 204);
+}
+
+body div div ul a {
+    background-color: rgb(140, 193, 239);
+    color: rgb(18, 26, 33);
+}
+
+body div div ul :hover {
+    background-color: rgb(50, 193, 25);
+    color: rgb(209, 94, 12);
+}
+
+.menyy {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bildet {
+    grid-area: bildet;
+    margin: 25px;
+}
+
+body div div img {
+    width: 120%;
+}
+
+.infoboks {
+    grid-area: infoboks;
+
+    background-color: rgb(45, 142, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 35px;
+    flex-flow: wrap column;
+    font-size: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto auto auto);
+    grid-template-areas: 
+    'bildet tittel tittel'
+    'infoboks tekst tekst'
+    'meny meny meny';
+}

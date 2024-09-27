@@ -1,0 +1,13 @@
+html,body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(auto 1fr auto);
+    grid-template-areas:
+    'gress';
+}
