@@ -39,6 +39,7 @@ html,body {
     'four five six';
     margin-left: 130px;
     font-size: 2.5rem;
+    padding: 50%;
 }
 
 body div div ul a {
