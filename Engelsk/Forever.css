@@ -1,0 +1,15 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+}
+
+#tilbake {
+    background-color: rgb(29, 84, 132);
+    align-items: baseline;
+    justify-content: baseline;
+}
