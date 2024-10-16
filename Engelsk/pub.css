@@ -7,7 +7,9 @@ html,body {
     grid-area: header;
 
     display: flex;
-    background-color: rgb(0, 94, 184);
+    padding-right: 50px;
+    background-image: url(../Bilder/scotland\ bilde.jpg);
+    background-size: cover;
     justify-content: right;
     color: rgb(255, 255, 255);
 }
@@ -33,11 +35,11 @@ html,body {
 .minigrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
     'one two three'
     'four five six';
-    margin-left: 130px;
+     margin-left: 20px;
     font-size: 2.5rem;
 }
 
