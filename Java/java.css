@@ -5,15 +5,20 @@ html, body {
 }
 
 body {
-    background-color: rgb(170, 206, 237);
+
 }
 
 #i {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #utskrift {
+    color: rgb(155, 119, 60);
+}
+
+#utskrift2 {
     color: rgb(155, 119, 60);
 }

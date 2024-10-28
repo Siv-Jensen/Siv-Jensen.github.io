@@ -27,3 +27,16 @@ else if(alder = 17){
 else{
     document.getElementById("utskrift2").innerText="Det vil si du er nyfødt."
 }
+let bakgrunnsfarger = prompt("Velg to farger, separert med komma.")
+    document.querySelector("body").style.backgroundColor = "linear-gradient("+ bakgrunnsfarger +")";
+
+// let bakgrunnsfarge = prompt("Gjett riktig farge.")
+// console.log(bakgrunnsfarge);
+
+// if(bakgrunnsfarge = (0,0,255)){
+//     document.body.backroundColor = green
+// }
+
+// else{
+//     document.body.backgroundColor = red
+// };
