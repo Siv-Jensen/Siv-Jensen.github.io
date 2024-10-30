@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#utvalg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes steinAnimasjon {
+    0% {rotate: 0deg;}
+    5% {rotate: 45deg}
+    10% {rotate: 90deg;}
+    15% {rotate: 135deg;}
+    20% {rotate: 180deg;}
+    25% {rotate: 225deg;}
+    30% {rotate: 270deg}
+    35% {rotate: 315deg;}
+    40% {rotate: 360deg;}
+    50% {top: 10px;}
+    80% {top: 0;}
+    100% {top: 0;}
+}
+
+@keyframes saksAnimasjon {
+    0% {rotate: 0deg;}
+    5% {rotate: 45deg}
+    10% {rotate: 90deg;}
+    15% {rotate: 135deg;}
+    20% {rotate: 180deg;}
+    25% {rotate: 225deg;}
+    30% {rotate: 270deg}
+    35% {rotate: 315deg;}
+    40% {rotate: 360deg;}
+    90% {}
+    100% {}
+}
+
+@keyframes papirAnimasjon {
+    0% {rotate: 0deg;}
+    5% {rotate: 45deg}
+    10% {rotate: 90deg;}
+    15% {rotate: 135deg;}
+    20% {rotate: 180deg;}
+    25% {rotate: 225deg;}
+    30% {rotate: 270deg}
+    35% {rotate: 315deg;}
+    40% {rotate: 360deg;}
+    90% {}
+    100% {}
+}
+
+#stein {
+    width: 10;
+    height: 10;
+    position: relative;
+    animation-name: steinAnimasjon;
+    animation-duration: 4s;
+}
+
+#saks {
+    width: 10;
+    height: 10;
+    position: relative;
+    animation-name: saksAnimasjon;
+    animation-duration: 4s;
+}
+
+#papir {
+    width: 10;
+    height: 10;
+    position: relative;
+    animation-name: papirAnimasjon;
+    animation-duration: 4s;
+}
