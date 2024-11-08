@@ -22,3 +22,7 @@ function klikkPapir() {
     console.log("Du valgte papir!");
     alert("kjedelig vleg no annet");
 }
+
+// valgte stein, gjør de andre to hidden
+
+// du vant/tapte, ta non (i motsetning til block)

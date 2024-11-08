@@ -5,8 +5,10 @@ function delUtKort() {
 }
 function trykkStart() {
     addEventListener("delUtKort")
+    delUtKort.style.visibility.hidden
 };
-
+// .styke.display non/block (kort som skal vises)
+// .style.visibility: visible/hidden (kort for å trekke inn)
 
 
 let trekkInn = document.getElementById("trekk inn");
