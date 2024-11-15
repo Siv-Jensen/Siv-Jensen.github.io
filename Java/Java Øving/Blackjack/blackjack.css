@@ -39,18 +39,17 @@ h1{
     
 }
 
-#trekk inn {
+#knapper {
     grid-area: knapper;
-}
-
-#stå {
-    grid-area: knapper;
-}
-
-#ta sjanse {
-    grid-area: knapper;
-}
-
-#splitt kort {
-    grid-area: knapper;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-right: 400px ;
+    margin-left: 400px;
+    background-color: rgb(95, 220, 122);
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
 }
