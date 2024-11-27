@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* dette bare nøytaliserer dokumentet */
+
+
+body {
+    background-color: rgb(51, 139, 215);
+}
+
+
+/* her setter jeg opp gridden for siden min*/
+#lovensGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    'hovedtekst hovedtekst hovedtekst'
+    'undertekst undertekst undertekst'
+    'tekst tekst tekst'
+    ;
+}
+
+/* her legger jeg inn tekstene innenfor gridden min og gir dem en plassering i gridden */
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: hovedtekst;
+}
+
+#lilleHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: undertekst;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: tekst;
+    background-color: aliceblue;
+}
