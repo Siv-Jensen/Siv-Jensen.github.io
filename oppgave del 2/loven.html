@@ -7,14 +7,30 @@
     <link rel="stylesheet" href="loven.css">
     <script src="loven.js" defer></script>
 </head>
-<body>
-    <div id="lovensGrid">
-        <h1 id="header">Hva har du lov til?</h1>
-        <h3 id="lilleHeader">Når ble du født?</h3>
-        <script type="" src=""></script>
-        <p id="main">
-            
-        </p>
-    </div>
+<body id="kroppenMin">
+    <main id="lovensGrid">
+        <div id="skjema">
+            <form action="skjema">
+                <label for="tekst">Hvor gammel er du?</label>
+                <input type="text" id="tekst" placeholder="Skriv inn alder" min="1" max="120">
+
+                <label for="tekst">Spørsmåk 2</label>
+                <input type="text" id="tekst" placeholder="Skriv inn navn">
+
+                <label for="tekst">Spørsmål 3</label>
+                <input type="text" id="tekst" placeholder="Skriv inn navn">
+
+                <button type="submit">OK</button>
+            </form>
+        </div>
+        <div id="svar">
+            <h1 id="overskrift">
+
+            </h1>
+            <p id="hoved">
+
+            </p>
+        </div>
+    </main>
 </body>
 </html>

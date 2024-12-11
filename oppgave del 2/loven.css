@@ -25,21 +25,23 @@ body {
 
 /* her legger jeg inn tekstene innenfor gridden min og gir dem en plassering i gridden */
 
-#header {
+#skjema {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
     grid-area: hovedtekst;
+    padding: 20px;
 }
 
-#lilleHeader {
+#overskrift {
     display: flex;
     justify-content: center;
     align-items: center;
     grid-area: undertekst;
 }
 
-#main {
+#hoved {
     display: flex;
     justify-content: center;
     align-items: center;
