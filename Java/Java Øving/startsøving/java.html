@@ -10,18 +10,19 @@
 <body id="kroppenMin">
     <main id="boks">
         <div>
-        <p>Skriv inn navnet ditt</p>
-        <input type="text" id="navn">
+            <form action="skjema">
+                <label for="tekst">Hvor gammel er du?</label>
+                <input type="text" id="tekst" placeholder="Skriv inn alder" min="1" max="120">
+
+                <label for="tekst">Hva heter du?</label>
+                <input type="text" id="tekst" placeholder="Skriv inn navn">
+
+                <label for="tekst">Hva heter du?</label>
+                <input type="text" id="tekst" placeholder="Skriv inn navn">
+
+                <button type="submit">OK</button>
+            </form>
         </div>
-        <div>
-        <p>Skriv inn passord</p>
-        <input type="password" id="passord">
-        </div>
-        <div>
-        <p>Velg en farge</p>
-        <input type="color" id="farge">
-        </div>
-        <button id="knapp">send</button>
     </main>
 </body>
 </html>

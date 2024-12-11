@@ -1,2 +1,7 @@
-let hoved = document.getElementById("main");
+document.getElementById("skjema").addEventListener("submit", fikseSkjema);
 
+fucntion fikseSkjema(event) {
+
+    event.preventDefault()
+
+};
